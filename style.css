@@ -1,4 +1,25 @@
-h1 {
-background-color:lightblue;
-width: 10%;
+.grid {
+width: 900px;
+height: 900px;
+display: flex;
+flex-wrap: wrap;
+border-style: solid;
+background-color:rgb(71, 201, 147)
+}
+
+.grid div {
+
+width: 90px;
+height: 90px;
+
+}
+
+.snake {
+background-color:fuchsia;
+
+
+}
+
+.apple {
+background-color: red;
 }
